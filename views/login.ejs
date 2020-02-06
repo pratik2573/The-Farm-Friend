@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+<style type="text/css">
+  body {
+  background-color: #FEF6C5;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: rgb(225,146,114);
+  border-style: solid;
+  border:5px 0px;
+  border-color: #da5d55;
+  margin: 10px auto auto;
+  max-width: 700px;
+  color: #fff;
+}
+h4 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: rgb(225,146,114);
+  margin:auto;
+  max-width: 700px;
+  color: #fff;
+  padding: 10px;
+}
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 20px;
+}
+button {
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid;
+  color: white;
+  border-radius: 20px;
+  border-color: #25632e;
+}
+table {
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.home-icon {
+  height: 40px;
+  width: 40px;
+  text-align: left;
+}
+.navbar {
+  border-bottom:solid 4px #dc3545;
+  padding: auto;
+}
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin: auto;
+}
+
+.search {
+  padding: 5px;
+  margin: auto;
+}
+.pfimg {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 100%;
+}
+.role {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #cecece;
+  color: #565656;
+}
+.info {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: #fff;
+  border-style: solid;
+  border:5px 0px;
+  border-color: #e2bf7d;
+  max-width: 700px;
+  margin: 40px auto;
+}
+.info-2 {
+  border-style: solid;
+  border:5px 0px;
+  border-color: #da5d55;
+}
+.inf-t {
+  text-align: left;
+}
+.inf-d {
+  text-align: left;
+}
+.reset {
+  background-color: #688433;
+  margin-right: 20px; 
+}
+.bnft {
+  background-color: #3f6cbf;
+  margin-right: 20px;
+}
+.delete {
+  background-color: #cc2229;
+}
+.img4 {
+  width: 100%;
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+}
+.ftr-txt {
+  margin-top: 20%;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+
+}
+
+</style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color:#ea694a;">
+    <img src="https://i.postimg.cc/CxQdqk8k/home.png" class="home-icon"> 
+    <a href="" class="navbar-brand" ><span id="brand"> The Farm Friend </span></a>
+    <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#collapseablenavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapseablenavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+              <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light microphone-icon my-2 my-sm-0 btni" type="submit">&#8981;</button>
+          </form>
+        
+            </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" id="a1">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a href="guide.pdf" class="nav-link" id="a2">Bidder Guide</a>
+        </li>
+        <li class="nav-item">
+          <a href="About.html" class="nav-link" id="a3">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="Contact_Us.html" class="nav-link" id="a4">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="assistant.html" class="nav-link" id="a5">Farming Assist</a>
+        </li>
+      </ul>
+      
+    </div>  
+  </nav>
+  <h2 id="h2">My Dashboard</h2>
+
+  <div class="info">
+    <img src="https://i.postimg.cc/PrNj8cQV/prof.png" class="pfimg"><br>
+    <h3 id="h3"><%= name %></h3> <br>
+    <span class="role" id="role">Farmer/Buyer</span><br>
+    <ul class="inf-t">
+      <li id="l1">Email</li>
+      <li id="l2">Password</li>
+      <li id="l4">Total Earning/Investment</li>
+    </ul>
+    <ul class="inf-d">
+      <li id="l5"><%= email %></li>
+      <li>********</li>
+      <li>₹ 10000.00</li>
+    </ul><br>
+    <button class="bnft" id="b1">Offer new Produce</button>
+    <button class="bnft" id="b2">Ongoing Transactions</button><br>
+    <button class="reset" id="b3"> Reset</button>
+    <button class="delete" id="b4">Delete This Account</button>
+  </div>
+
+  
+  <div class="info info-2">
+    <h4 id="h4">Transaction History</h4>
+    <table>
+      <tr>
+        <th id="t1">S.No.</th>
+        <th id="t2">Date</th>
+        <th id="t3">Order Id</th>
+        <th id="t4">Item(s)</th>
+        <th id="t5">Quantity (Kgs)</th>
+        <th id="t6">Net Amount (₹)</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>01-Jan-2020</td>
+        <td>8794482548</td>
+        <td>Potato</td>
+        <td>100</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>01-Jan-2020</td>
+        <td>8794482548</td>
+        <td>Potato</td>
+        <td>100</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>01-Jan-2020</td>
+        <td>8794482548</td>
+        <td>Potato</td>
+        <td>100</td>
+        <td>2000</td>
+      </tr>
+    </table>
+  </div>
+
+  <img src="https://i.postimg.cc/Xv5NBh46/img4.png" class="img4">
+  <p class="ftr-txt" id="abc">An Engenius 2.0 Website <br> Pratik | Ayush | Shitij | Mayank | Shreyanshi | Nripendra</p>
+  
+  <script type="text/javascript">
+    var lang = confirm("पेज हिंदी में देखने के लिए हाँ {Yes} पर क्लिक करें");
+if (lang==true) {
+  myFunction();
+}
+
+function myFunction() {
+  document.getElementById('brand').innerHTML ="कृषि मित्र";
+  document.getElementById('a1').innerHTML= "लॉग इन/साइन अप करें";
+  document.getElementById('a2').innerHTML = "क्रेता गाइड";
+  document.getElementById('a3').innerHTML = "हमारे बारे में";
+  document.getElementById('a4').innerHTML = "संपर्क करें";
+  document.getElementById('a5').innerHTML = "खेती की सहायता";
+  document.getElementById('h2').innerHTML = "मेरा डैशबोर्ड";
+  document.getElementById('h3').innerText = "प्रोटोटाइप नाम";
+  document.getElementById('role').innerText=  "किसान / क्रेता";
+  document.getElementById('l1').innerText = "ईमेल";
+  document.getElementById("l2").innerText =  "कुंजिका";
+  document.getElementById("l3").innerText = "संपर्क नंबर";
+  document.getElementById("l4").innerText = "कुल कमाई / निवेश";
+  document.getElementById("l5").innerText = "abc@example.com";
+  document.getElementById('b1').innerText=  "नई उपज प्रदान करें";
+  document.getElementById('b2').innerText=  "चल रहा है लेन-देन";  
+    document.getElementById('b3').innerText=  "रीसेट करें";
+    document.getElementById('b4').innerText =  "इस खाते को हटा दें"
+  document.getElementById('h4').innerText=  "लेनदेन का इतिहास";
+  document.getElementById('t1').innerText =  "क्र.सं. ";
+  document.getElementById("t2").innerText = "दिनांक";
+  document.getElementById("t3").innerText = "लेन - देन संख्या";
+  document.getElementById("t4").innerText = "चीज़ें";
+  document.getElementById('t5').innerText=  "मात्रा (किलोग्राम)";
+  document.getElementById('t6').innerText=  "शुद्ध राशि (₹)";
+}
+  </script>
+
+</body>
+</html>
