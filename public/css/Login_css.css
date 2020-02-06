@@ -1,0 +1,131 @@
+/*@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";*/
+body{
+background-color: #faf6db;
+}
+.one{
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top:10px;
+	border-width: medium;
+	background-color: #ee8972;
+	width: 400px;
+
+
+}
+
+ .border-2 {
+     border-width:2px !important;
+}
+.two{
+	width:100%px;
+	margin-top: 40px;
+	position: relative;
+
+}
+/*.mainLoginInput{
+  height: 35px;
+  padding: 0px;
+  font-size: 25px;
+  margin:auto;
+}
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput::-moz-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput:-ms-input-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}*/
+.cardx{
+	width:200px;
+	color: white;
+	background-color:#ee8972;
+
+}
+.cardw{
+	height: 200px;
+	width:200px;
+}
+.cardw img{
+	width:100px;
+	height: 100px;
+}
+.marx {
+	margin:auto;
+}
+
+.img4 {
+	width: 100%;
+	position:absolute;
+	z-index: -1;
+	display: flex;
+}
+.filler{
+	width: 100%
+}
+.btnedit{
+	margin: 10px;
+}
+.formfeed {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d0c8c3;
+    width:80%;
+    outline:none;
+    box-shadow:none;
+    text-align:left; ;
+    font-size: 20px;
+    margin: 20px;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.radio_set{
+
+     border: 1px solid black;
+}
+.list_item li{
+ margin: 40px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.w-100{
+	width: 1500px; height: 350px;
+}
+.gsc-control-cse{
+	border: 2px;
+	margin: 50px;
+	border-radius: 20px;
+	background-image: 
+}
+.btnx{
+	margin-left: 80%;
+}

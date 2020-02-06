@@ -1,0 +1,96 @@
+body {
+	background-color: #FEF6C5;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	background-color: #FFD485;
+	border-style: solid;
+	border:5px 0px;
+	border-color: #e2bf7d;
+	margin: 10px auto auto;
+}
+.home-icon {
+	height: 40px;
+	width: 40px;
+	text-align: left;
+}
+.navbar {
+	border-bottom:solid 4px #dc3545;
+}
+.navbar-brand {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	margin: auto;
+}
+
+.search {
+	padding: 5px;
+	margin: auto;
+}
+.d-block {
+	height: 300px;
+}
+.anc-img {
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+}
+.img1 {
+	width: 100%;
+}
+.img2{
+	width: 100px;
+	height: 60px;
+}
+.img3{
+	width: 100px;
+	height: 60px;
+}
+.img4 {
+	width: 100%;
+	position: absolute;
+	margin-top: -90px;
+	z-index: -1;
+}
+.blt-brd {
+	font-size: 40px;
+	text-decoration: bold;
+	font-family: 'Oswald', sans-serif;
+}
+.blt-brd-cnt {
+	margin: auto 20px;
+	background-color:#FFFBEF;
+	height: 400px;
+	opacity: 0.6;
+}
+.otr-cnt {
+	margin: auto 20px;
+	background-color:#FFFBEF;
+	height: 200px;
+	opacity: 0.6;
+}
+.row {
+	margin: 40px 40px 60px;
+}
+.card {
+	margin: 20px 20px;
+}
+.card-img-top {
+	width: 250px;
+	height: 250px;
+}
+.ftr-txt {
+	margin-top: 22%;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 0.8rem;
+
+}
+
+.mainLoginInput{
+  height: 35px;
+  padding: 0px;
+  font-size: 25px;
+  margin:auto;
+}
